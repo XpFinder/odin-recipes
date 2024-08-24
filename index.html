@@ -3,13 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <title>Odin Recipe</title>
+    <style>
+        .A{
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 50px;
+        }
+        .a1{
+            display: flex;
+            flex-direction: column; 
+            align-items: center;
+            background-color: beige;
+            border-radius: 10px;
+        }
+        .a2{
+            padding-top: 25px;
+        }
+        a{
+            margin-top: auto;
+        }
+        h1{
+            display: flex;
+            justify-content: center;
+            background-color: rgb(245, 205, 153);
+            margin: 0;
+            padding: 30px;
+            border-radius: 10px;
+        }
+        button{
+            background-color: rgb(255, 207, 148);
+            border-color: rgb(68, 61, 45);
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: auto;
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
+
 <body>
     <h1>Odin Recipes</h1>
-    <img src="./images/Noodle.png" height="200">
-    <a href="./recipes/ButterNoodle.html" target="_blank">Butter Noodles</a>
-    <p></p>
-    <img src="./images/EggRoll.png" height="200">
-    <a href="./recipes/EggRoll.html" target="_blank">Egg Roll</a>
+    <div class="A">
+        <div class="a1">
+            <img src="./images/Noodle.png" height="200">
+            <a href="./recipes/ButterNoodle.html" target="_blank"><button>Butter Noodles</button></a>
+        </div>
+        <div class="a1 a2">
+            <img src="./images/EggRoll.png" height="140">
+            <a href="./recipes/EggRoll.html" target="_blank"><button>Egg Roll</button></a>
+        </div>
+    </div>
 </body>
 </html>
